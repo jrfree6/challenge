@@ -23,8 +23,6 @@ public class HelloController {
 	@RequestMapping("/")
 	@ResponseBody 
 	public String Info() {
-//		 new ChangeUberOnRails();
-//		 new ChangeItrain();
 		StringBuffer message = new StringBuffer();
 		message.append("<h3>Sejam Bem Vindo Metodos Possiveis: </h3> ");
 		message.append("<br/>Metodos Possiveis:  ");
